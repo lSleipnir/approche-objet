@@ -17,4 +17,9 @@ public class Compte {
     public int getNumero_compte() {
         return numero_de_compte;
     }
+
+    @Override
+    public String toString() {
+        return "Le numero de compte " + this.numero_de_compte ;
+    }
 }
